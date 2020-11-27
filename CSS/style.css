@@ -1,0 +1,57 @@
+#wrapper {
+  margin:auto;
+  width:100%;
+}
+
+path.line-1 {
+  fill: none;
+  stroke: #548237;
+  stroke-width: 1.5px;
+}
+
+path.line-2 {
+  fill: none;
+  stroke: #542837;
+  stroke-width: 1.5px;
+}
+
+path.area {
+  fill: #e7e7e7;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line {
+  stroke: #fff;
+}
+
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
+}
+svg {
+  border:1px solid gray;
+  border-radius:10px;
+  height:1000px;
+  width:1000px ;
+  margin:5px;
+}
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+input[type="range"] {
+  width:800px;
+}
+div {
+  text-align:center;
+}
